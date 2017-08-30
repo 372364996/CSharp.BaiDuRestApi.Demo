@@ -15,7 +15,6 @@ namespace voice
     public partial class Form1 : Form
     {
         string token ="*****";//第一次运行时候获取到的token
-        string filename = Application.StartupPath + "\\3.wav";
         string apiKey = "****";//对应百度云界面基本信息的API Key
         string secretKey = "****";//对应百度云界面基本信息的Secret Key
         string cuid = "464313464";//这个随便写  不过尽量写唯一的，比如自己创建个guid，或者你手机号码什么的都可以
